@@ -7,7 +7,7 @@ export const Container = styled.div`
     height: 90%;
     background-color: ${colors.backgroundAlt};
 
-    grid-template-columns: minmax(30%, 1fr) minmax(70%, 2fr);
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
 `;
 

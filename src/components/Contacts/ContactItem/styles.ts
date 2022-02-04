@@ -24,6 +24,7 @@ export const Container = styled.div<IProps>`
 
         .sp-username {
             color: ${colors.strongText};
+            font-weight: ${props => (props.isSelected ? 'bold' : 400)};
             font-size: ${fontSizes.main};
             line-height: 21px;
         }
